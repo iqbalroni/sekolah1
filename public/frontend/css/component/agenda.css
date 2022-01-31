@@ -1,0 +1,77 @@
+.agenda .jumbotron {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+.agenda .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #C5196B;
+    letter-spacing: 1px;
+}
+
+.agenda ul {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #555555;
+}
+
+.agenda .text-title {
+    padding: 0;
+    margin: 0;
+    color: #555555;
+}
+
+.agenda .alert {
+    border: none;
+    background: rgba(197, 25, 107, 0.20);
+}
+
+.agenda .alert h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #C5196B;
+}
+
+.agenda .alert p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555555;
+}
+
+@media screen and (max-width : 700px) {
+    .agenda .jumbotron {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .agenda .title {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .agenda .text-title {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .agenda ul {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .agenda img {
+        margin: 0 auto;
+        width: 50%;
+    }
+}

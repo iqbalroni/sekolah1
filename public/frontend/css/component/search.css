@@ -1,0 +1,23 @@
+.nav-item .form-control {
+    border-radius: 10px 0 0 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-item .btn-pink {
+    background-color: #C5196B;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar #form,
+.navbar #exit {
+    display: none;
+}
+
+@media screen and (max-width : 700px) {
+    .nav-item {
+        width: 50%;
+    }
+}

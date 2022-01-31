@@ -1,0 +1,64 @@
+.website .jumbotron {
+    background-color: #ffffff;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.website .card-title {
+    color: #555555;
+}
+
+.website .card {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.website .card .card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.website .card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 3;
+}
+
+.website .btn {
+    background-color: #C5196B;
+    color: #ffffff;
+}
+
+@media screen and (max-width : 700px) {
+    .website .jumbotron {
+        height: auto;
+        padding-bottom: 50px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .website .card:hover {
+        transform: scale(1.1);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        z-index: 3;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .website .container {
+        width: 90%;
+    }
+
+    .website .btn {
+        font-size: 12px;
+        background-color: #C5196B;
+        color: #ffffff;
+    }
+
+    .website .card-title {
+        font-size: 20px;
+    }
+}

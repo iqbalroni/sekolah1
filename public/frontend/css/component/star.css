@@ -1,0 +1,92 @@
+.qoutes .jumbotron {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.qoutes .star i {
+    color: #FFD700;
+}
+
+
+
+.qoutes .hastag {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.qoutes h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #C5196B;
+    letter-spacing: 2px;
+}
+
+/*.qoutes i {*/
+/*    border-radius: 5px;*/
+/*    padding: 20px;*/
+/*    color: #C5196B;*/
+/*    background-color: #EEBAD3;*/
+/*    transition: all 0.5s ease-in-out;*/
+/*}*/
+
+/*.qoutes i:hover {*/
+/*    transform: rotate(30deg);*/
+/*}*/
+
+.qoutes .title {
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+
+.qoutes .btn {
+    background-color: #C5196B;
+    color: #ffffff;
+    border:none;
+}
+
+.qoutes p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #555555;
+}
+
+@media screen and (max-width : 700px) {
+    .qoutes .row{
+        flex-direction: column-reverse;
+    }
+
+    .qoutes .jumbotron {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    
+    .qoutes .container {
+        width: 90%;
+    }
+
+    .qoutes h2 {
+        margin-top: 20px;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .qoutes .title {
+        font-size: 20px;
+    }
+
+    .qoutes p {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

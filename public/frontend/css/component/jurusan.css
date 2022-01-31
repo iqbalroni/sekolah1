@@ -1,0 +1,101 @@
+.jurusan .jumbotron {
+    background-color: #C5196B;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.jurusan .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFD700;
+    letter-spacing: 1px;
+}
+
+.jurusan .text-title {
+    color: #ffffff;
+}
+
+.jurusan .nav {
+    border: none;
+}
+
+.jurusan .nav-link {
+    color: #ffffff;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.jurusan .nav-link.active {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #C5196B;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.jurusan .card {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.jurusan .card .card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.jurusan .card .card-title {
+    color: #C5196B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.jurusan .card p {
+    font-size: 12px;
+    color: #555555;
+}
+
+@media screen and (max-width : 700px) {
+    .jurusan .nav-link {
+        width: 100%;
+    }
+
+    .jurusan .nav-item {
+        width: 100%;
+    }
+    
+    .jurusan .nav-link.active {
+        border-radius: 10px;
+    }
+
+    .jurusan .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .jurusan .jumbotron {
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .jurusan .container {
+        width: 80%;
+    }
+
+    .jurusan .text-title {
+        font-size: 20px;
+    }
+
+    .jurusan .title {
+        font-size: 30px;
+    }
+}

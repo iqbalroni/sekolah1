@@ -1,0 +1,62 @@
+@import url(component/slider.css);
+@import url(component/navbar.css);
+@import url(component/star.css);
+@import url(component/swipper.css);
+@import url(component/website.css);
+@import url(component/video.css);
+@import url(component/jurusan.css);
+@import url(component/contact.css);
+@import url(component/agenda.css);
+@import url(component/footer.css);
+@import url(component/brand.css);
+@import url(component/komentar.css);
+@import url(component/blog.css);
+@import url(component/search.css);
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.garis {
+    height: 3px;
+    width: 10%;
+    background-color: #FFD700;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pill {
+    background-color: #EEBAD3;
+    border-radius: 25px;
+    padding: 8px;
+    color: #C5196B;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C5196B;
+    border-radius: 30px;
+}
+
+@media screen and (max-width : 700px) {
+    .garis {
+        width: 20%;
+    }
+}

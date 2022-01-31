@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #ffffff;
+}
+
+.sticky {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar .dropdown,
+.navbar .nav-link {
+    color: #555555;
+    outline: invert;
+    border: none;
+}
+
+.navbar .nav-link {
+    cursor: pointer;
+}
+
+.navbar .dropdown {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-toggler {
+    color: #C5196B;
+}
+
+.navbar .nav-link i {
+    color: #C5196B;
+}
+
+
+.navbar .dropdown i {
+    color: #555555;
+}
+
+.navbar .dropdown-menu {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.sticky .container {
+    width: 85%;
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width : 700px) {
+    .navbar .dropdown-menu .dropdown-item{
+        padding:10px;
+        margin:0;
+    }
+}

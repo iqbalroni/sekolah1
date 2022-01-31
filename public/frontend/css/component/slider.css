@@ -1,0 +1,212 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider-container .left-slider {
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #C61A6C;
+    transition: all 0.5s ease-in-out;
+    flex-direction: column-reverse;
+}
+
+.right-slider .banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    background-color: #B41863;
+    color: #fefefe;
+}
+
+.right-slider h1 {
+    font-size: 2.0em;
+    color: #fefefe;
+    width: 90%;
+    font-weight: 700;
+}
+
+.right-slider p {
+    font-size: 1em;
+    color: #fefefe;
+    width: 85%;
+    padding-left: 10px;
+}
+
+.right-slider a button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C5196B;
+    text-decoration: none;
+    margin-top: 15px;
+    color: #fefefe;
+    margin-left: 10px;
+}
+
+.right-slider a button:hover {
+    transform: scale(1.1);
+}
+
+
+.slider-container .right-slider {
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.left-slider .banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-container .action-button .down-button {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    z-index: 100;
+    border-radius: 10px 0 0 10px;
+}
+
+.slider-container .action-button .up-button {
+    position: absolute;
+    right: 60px;
+    bottom: 70px;
+    z-index: 100;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.slider-container .action-button button {
+    padding: 15px;
+    color: #fefefe;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.3em;
+}
+
+.slider-container .action-button button:hover {
+    color: #39374E;
+    transition: all 0.2s ease-in-out;
+}
+
+.box-slider {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 100%;
+    background-color: #303030;
+}
+
+
+@media screen and (max-width : 700px) {
+
+    .right-slider h1 {
+        font-size: 20px;
+        color: #fefefe;
+        width: 80%;
+        font-weight: 700;
+    }
+
+
+    .right-slider p {
+        font-size: 12px;
+        color: #fefefe;
+        width: 85%;
+        padding: 0;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .right-slider a button {
+        font-size: 12px;
+        padding: 7px;
+        border-radius: 10px;
+        border: none;
+        background-color: #C5196B;
+        text-decoration: none;
+        margin-top: 5px;
+        color: #fefefe;
+        margin-left: 10px;
+    }
+
+    .slider-container {
+        margin-top: 50px;
+    }
+
+    .slider-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .slider-container .left-slider {
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .slider-container .right-slider {
+        height: 100%;
+        width: 100%;
+        z-index: 6;
+    }
+
+    .right-slider .banner {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+        color: #fefefe;
+    }
+
+    .slider-container .action-button .down-button {
+        position: absolute;
+        left: 0;
+        bottom: 50px;
+        z-index: 100;
+        border-radius: 10px 10px 0 0;
+        transform: rotate(90deg);
+    }
+
+    .slider-container .action-button .up-button {
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        z-index: 100;
+        border-radius: 0 0 10px 10px;
+        transform: rotate(90deg);
+    }
+
+    .slider-container .action-button button {
+        padding: 10px;
+        height: 50px;
+        color: #fefefe;
+        border: 0;
+        cursor: pointer;
+        background-color: #B41863;
+        font-size: 0.8em;
+    }
+}
